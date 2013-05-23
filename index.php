@@ -1,6 +1,16 @@
 <?php
 session_start();
 require('configuration.php');
+$con = mysql_connect(DATABASE_HOST, DATABASE_USER, DATABASE_PASS);
+if(!$con)
+{
+    die("Could not connect to database server at " . DATABASE_HOST);
+}
+$sel = mysql_select_db(DATABASE_DB, $con);
+if(!$con)
+{
+    die("Could not select database " . DATABASE_DB);
+}
 if(isset($_GET['action']))
 {
     if($_GET['action'] == "insert")
