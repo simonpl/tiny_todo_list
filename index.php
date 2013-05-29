@@ -99,7 +99,7 @@ if(isset($_GET['action']))
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<title>Todo-List</title>
+<title>Tiny_Todo_List</title>
 <style type="text/css">
 body {text-align:center; margin:20px}
 span.good{color:green; font-weight:bold}

@@ -1,4 +1,4 @@
-Todo_list
+Tiny_Todo_list
 =========
 
 Setup
@@ -28,7 +28,7 @@ Requirements
 License
 -------
 
-Todo_list let's you organize your tasks.
+Tiny_Todo_list let's you organize your tasks.
 
 Copyright (C) 2013 Simon Plasger
 
