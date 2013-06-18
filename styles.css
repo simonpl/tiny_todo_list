@@ -1,0 +1,5 @@
+body {text-align:center; margin:20px}
+span.good{color:green; font-weight:bold}
+span.bad{color:red; font-weoght:bold}
+td {border-width:1px; border-style:solid}
+table.todo {border-width:1px; border-style:solid; border-collapse:collapse}

@@ -100,12 +100,7 @@ if(isset($_GET['action']))
 <html>
 <head>
 <title>Tiny_Todo_List</title>
-<style type="text/css">
-body {text-align:center; margin:20px}
-span.good{color:green; font-weight:bold}
-span.bad{color:red; font-weoght:bold}
-td {border-width:1px; border-style:solid}
-</style>
+<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
 <?php
@@ -115,7 +110,7 @@ if(isset($_SESSION['message']))
     unset($_SESSION['message']);
 }
 ?>
-<table style="border-width:1px; border-style:solid; border-collapse:collapse">
+<table class="todo">
 <tr>
 <td><b>Name/Description</b></td>
 <td><b>Priority</b></td>
