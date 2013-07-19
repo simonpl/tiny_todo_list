@@ -6,12 +6,14 @@ Setup
 
 Note: The tool was tested with PHP 5.3.3. Other versions may cause problems or not work at all.
 
-1. Copy the files `styles.css`, `index.php` and `configuration.php` to a directory that can be accessed by your webserver.
-    You may want to use HTTP Authentification to protect the directory from unwanted access.
+1. Copy the files `styles.css`, `index.php` and `configuration.php.dist` to a directory that can be accessed by your webserver.
+    You may want to use HTTP authentification to protect the directory from unwanted access.
 
-2. Execute the data from `schema.sql` at your MySQL-Server. You may want to create a seperate Database and/or a seperate user for this tool.
+2. Execute the data from `schema.sql` at your MySQL-Server. You may want to create a seperate database and/or a seperate user for this tool.
 
-3. Adjust the file `configuration.php` to the values that fit with your MySQL-setup.
+3. Copy `configuration.php.dist` to `configuration.php`.
+
+4. Adjust the file `configuration.php` to the values that fit with your MySQL-setup.
 
 
 Usage
